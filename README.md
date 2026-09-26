@@ -2,6 +2,12 @@
 
 用于 Minecraft [Yes Steve Model（YSM）](https://modrinth.com/mod/yes-steve-model) 的苦力怕酒狐模型。金发、狐耳、大尾巴，配上苦力怕主题兜帽，带有变身、舞蹈、抱 TNT 等动作与互动。本仓库提供模型文件、下载与后续更新。
 
+## 实机预览
+
+| 脱帽 · TNT 小挂件 | 戴帽 · 抱 TNT |
+| --- | --- |
+| ![脱帽状态下的 TNT 小挂件特写](docs/images/preview-hood-off.png) | ![戴帽状态下抱着 TNT 的效果](docs/images/preview-hood-on.png) |
+
 ## 角色介绍
 
 苦力怕酒狐胆小又敏感，被许多人注视时容易压力过大，忍不住「BOOM！」，因此远离城市与人群。后来，她遇到了能够包容自己的小恶魔酒狐，两人成了知心朋友。
@@ -74,7 +80,7 @@
 
 4. 在游戏中执行 `/ysm model reload`，然后在 YSM 模型选择界面选择「苦力怕酒狐」。命令需要相应权限。
 
-更新已有安装前，建议备份旧模型。`README.md`、`design/`、Git 文件及本地备份无需复制到游戏目录。
+更新已有安装前，建议备份旧模型。`README.md`、`docs/`、`design/`、Git 文件及本地备份无需复制到游戏目录。
 
 ## 使用
 
