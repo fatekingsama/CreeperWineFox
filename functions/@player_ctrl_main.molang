@@ -14,21 +14,16 @@ v.hold_tnt_time=v.hold_tnt_time>20?0:v.hold_tnt_time;
 
 
 
-v.is_carry_main&&ctrl.run ? {
-    ctrl.set_animation('molang&arm:carry_block:run:main');
+// Airborne carry must use the jump pose before considering running.
+v.is_carry_main&&ctrl.jump&&!ctrl.fly ? {
+    ctrl.set_animation('molang&arm:carry_block:run:jump:aligned');
     return ctrl.state_continue;
 };
 
-
-v.is_carry_main&&(ysm.ground_speed2>v.run_speek?1:0)&&ctrl.jump ? {
-    ctrl.set_animation('molang&arm:carry_block:run:jump');
+v.is_carry_main&&ctrl.run&&!ctrl.fly ? {
+    ctrl.set_animation('molang&arm:carry_block:run:main:aligned');
     return ctrl.state_continue;
 };
-
-
-
-
-
 
 ctrl.sleep ? {
 

@@ -2,6 +2,18 @@
 fn.is_carry_main;
 
 v.is_carry_main == 1 ? {
+    // Keep the flight torso and skirt pose when carrying a block.
+    ctrl.fly ? {
+        ctrl.set_animation('molang&arm:carry_block:main:fly');
+        return ctrl.state_continue;
+    };
+
+    // Let the base movement animate the torso and skirt.
+    (ctrl.walk||ctrl.run||ctrl.jump) ? {
+        ctrl.set_animation('molang&arm:carry_block:main:move');
+        return ctrl.state_continue;
+    };
+
     ctrl.set_animation('molang&arm:carry_block:main');
     return ctrl.state_continue;
 };
