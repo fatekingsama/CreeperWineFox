@@ -13,12 +13,13 @@
     <td width="50%" valign="top"><img src="docs/images/preview-hood-off-cropped.png" alt="脱帽状态下的 TNT 小挂件特写" width="100%"></td>
     <td width="50%" valign="top"><img src="docs/images/preview-hood-on-cropped.png" alt="戴帽状态下抱着 TNT 的效果" width="100%"></td>
   </tr>
+  <tr>
+    <th colspan="2">原面具 · 抱 TNT 奔跑动作</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/images/preview-original-mask-tnt.png" alt="戴着原面具抱 TNT 奔跑时触发的动作，全身实机预览" width="650"></td>
+  </tr>
 </table>
-
-<p align="center">
-  <strong>原面具 · 举起 TNT</strong><br>
-  <img src="docs/images/preview-original-mask-tnt.png" alt="戴着原面具举起 TNT 的全身实机预览" width="650">
-</p>
 
 ## 角色介绍
 
