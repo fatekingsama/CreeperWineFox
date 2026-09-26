@@ -15,6 +15,11 @@
   </tr>
 </table>
 
+<p align="center">
+  <strong>原面具 · 举起 TNT</strong><br>
+  <img src="docs/images/preview-original-mask-tnt.png" alt="戴着原面具举起 TNT 的全身实机预览" width="650">
+</p>
+
 ## 角色介绍
 
 苦力怕酒狐胆小又敏感，被许多人注视时容易压力过大，忍不住「BOOM！」，因此远离城市与人群。后来，她遇到了能够包容自己的小恶魔酒狐，两人成了知心朋友。
