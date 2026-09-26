@@ -68,6 +68,10 @@
 
 ## 安装
 
+正式版下载：[CreeperWineFox v1.0.0](https://github.com/fatekingsama/CreeperWineFox/releases/tag/v1.0.0)。下载附件 `CreeperWineFox-v1.0.0.zip`，解压后将整个 `CreeperWineFox` 文件夹放入当前游戏实例的 `config/yes_steve_model/custom/`，再重载并选择模型。
+
+如从仓库源码手动安装：
+
 1. 安装适合游戏版本的 YSM。
 2. 在当前游戏实例的 `config/yes_steve_model/custom/` 下创建 `CreeperWineFox` 文件夹。
 3. 将本仓库的 `ysm.json` 和以下资源文件夹放入其中：
@@ -102,7 +106,7 @@
 
 ## 当前状态与反馈
 
-飞行及抱物跑跳的裙摆调整仍需进一步游戏验证，尚不能保证所有动作组合都没有穿模。
+飞行及抱物跑跳的裙摆调整已完成游戏内验证，随 v1.0.0 正式发布。
 
 反馈时请附上游戏与 YSM 版本、戴帽状态、主副手物品，以及触发问题的动作；侧面或背面的截图、短视频有助于定位裙摆问题。
 
