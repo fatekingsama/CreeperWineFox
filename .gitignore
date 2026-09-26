@@ -1,0 +1,29 @@
+# Local recovery snapshots and temporary editing scripts
+/.codex-backups/
+/.codex-*.ps1
+/.codex-*.cjs
+/tmp/
+/temp/
+
+# Generated packages and exports
+/dist/
+/exports/
+
+# Editor and operating-system caches
+/.idea/
+/.vscode/
+__pycache__/
+*.pyc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example

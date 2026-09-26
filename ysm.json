@@ -1,0 +1,145 @@
+{
+	"spec": 2,
+	"metadata": {
+		"name": "苦力怕酒狐",
+		"tips": "压力太大的时候就会原地爆炸把主人炸飞\n乱舞参考自 VRChat 的永雏塔菲动画。\n音乐为改编的 Zufolo Impazzito。",
+		"license": {
+			"type": "CC BY-NC-SA 4.0"
+		},
+		"authors": [
+			{
+				"name": "夜星",
+				"avatar": "avatar/微信图片_20260814112433_131_73.jpg",
+				"role": "建模",
+				"contact": {
+					"QQ": "2839208900",
+					"b站": "-夜星-"
+				}
+			}
+		],
+		"link": {
+			"home": "https://modrinth.com/mod/yes-steve-model",
+			"donate": "https://afdian.com/a/ysmmod"
+		}
+	},
+	"properties": {
+		"extra_animation": {
+			"extra0": "变身",
+			"extra1": "打招呼",
+			"extra2": "鼓掌",
+			"extra3": "Get Down",
+			"extra4": "乱舞",
+			"extra5": "卖萌",
+			"extra6": "御笔摇",
+			"extra7": "舞蹈",
+			"开关兜帽(按钮)": "#开关兜帽",
+			"月饼": "中秋快乐"
+		},
+		"preview_animation": "gui",
+		"disable_preview_rotation": true,
+		"free": true,
+		"height_scale": 0.7,
+		"width_scale": 0.7,
+		"render_layers_first": false,
+		"all_cutout": false,
+		"gui_no_lighting": false,
+		"extra_animation_buttons": [
+			{
+				"id": "开关兜帽",
+				"name": "服装配置",
+				"config_forms": [
+					{
+						"type": "checkbox",
+						"title": "是否脱帽",
+						"description": "是否显示兜帽",
+						"value": "v.hat"
+					},
+					{
+						"type": "radio",
+						"title": "面具 / 挂件",
+						"description": "在原面具位置切换装饰",
+						"value": "v.mask_accessory",
+						"labels": {
+							"原面具": "v.mask_accessory=0;",
+							"TNT 小挂件": "v.mask_accessory=1;",
+							"不显示": "v.mask_accessory=2;"
+						}
+					}
+				]
+			}
+		]
+	},
+	"files": {
+		"player": {
+			"model": {
+				"main": "models/main.json",
+				"arm": "models/arm.json"
+			},
+			"animation": {
+				"main": "animations/main.animation.json",
+				"extra": "animations/extra.animation.json",
+				"tac": "animations/tac.animation.json",
+				"carryon": "animations/carryon.animation.json",
+				"tlm": "animations/tlm.animation.json",
+				"fp_arm": "animations/fp.arm.animation.json"
+			},
+			"animation_controllers": ["controller/wine_fox.animation_controllers.json"],
+			"texture": [
+				{
+					"uv": "textures/skin.png"
+				}
+			]
+		},
+		"projectiles": [
+			{
+				"model": "models/arrow.json",
+				"animation": "animations/arrow.animation.json",
+				"texture": {
+					"uv": "textures/arrow.png"
+				},
+				"match": ["minecraft:arrow"]
+			},
+			{
+				"model": "models/trident.json",
+				"texture": {
+					"uv": "textures/trident.png"
+				},
+				"match": ["minecraft:trident"]
+			}
+		],
+		"vehicles": [
+			{
+				"model": "models/foxcar.json",
+				"texture": {
+					"uv": "textures/foxcar.png",
+					"specular": "textures/foxcar_s.png"
+				},
+				"animation": "animations/vehicle/horse.animation.json",
+				"match": ["minecraft:horse"]
+			},
+			{
+				"model": "models/foxcar.json",
+				"texture": {
+					"uv": "textures/foxcar.png",
+					"specular": "textures/foxcar_s.png"
+				},
+				"animation": "animations/vehicle/mule.animation.json",
+				"match": ["minecraft:mule"]
+			},
+			{
+				"model": "models/minecart.json",
+				"texture": {
+					"uv": "textures/minecart.png"
+				},
+				"match": ["minecraft:minecart"]
+			},
+			{
+				"model": "models/boat.json",
+				"texture": {
+					"uv": "textures/boat.png"
+				},
+				"match": ["minecraft:boat"]
+			}
+		]
+	}
+}

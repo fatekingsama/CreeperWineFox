@@ -1,0 +1,14 @@
+(ctrl.use('mainhand','#yes_steve_model:tridents')&&v.doll) ? {
+    v.test012=1154;
+    ctrl.set_animation('use_mainhand:spear_doll');
+    
+    return ctrl.state_continue;
+};
+
+
+    
+    
+
+
+
+return ctrl.state_bypass;
