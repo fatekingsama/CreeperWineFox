@@ -10,8 +10,8 @@
     <th width="50%">戴帽 · 抱 TNT</th>
   </tr>
   <tr>
-    <td width="50%" valign="top"><img src="docs/images/preview-hood-off.png" alt="脱帽状态下的 TNT 小挂件特写" width="100%"></td>
-    <td width="50%" valign="top"><img src="docs/images/preview-hood-on.png" alt="戴帽状态下抱着 TNT 的效果" width="100%"></td>
+    <td width="50%" valign="top"><img src="docs/images/preview-hood-off-cropped.png" alt="脱帽状态下的 TNT 小挂件特写" width="100%"></td>
+    <td width="50%" valign="top"><img src="docs/images/preview-hood-on-cropped.png" alt="戴帽状态下抱着 TNT 的效果" width="100%"></td>
   </tr>
 </table>
 
